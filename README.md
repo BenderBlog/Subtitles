@@ -14,7 +14,8 @@ If you are the author of the original video, just put these subtitles on your vi
 字幕状况
 
 |名称|原作者|原地址|上传情况|
-|VGA output through an SD Card! Margi Presenter-to-Go for PDAs|LGR Blerbs| https://www.youtube.com/watch?v=LRVhbITuUvc |上传完毕|
-|How Rockets Move Forward in Space|ElectroCUTE| https://www.youtube.com/watch?v=ZZApoDcYAJY |上传完毕|
+|---|---|---|---|
+|VGA output through an SD Card! Margi Presenter-to-Go for PDAs|LGR Blerbs| https://www.youtube.com/watch?v=LRVhbITuUvc |音视频上传完毕|
+|How Rockets Move Forward in Space|ElectroCUTE| https://www.youtube.com/watch?v=ZZApoDcYAJY |音视频上传完毕|
 |How Machine Language Works|8-bit-guy| https://www.youtube.com/watch?v=HWpi9n2H3kE |未联系到授权翻译，仅上传字幕|
 |Build a Bigger Badder Midi Mountain|LGR| https://www.youtube.com/watch?v=bQn3SyDh2Xo |字幕文件丢失，仅上传视频|
