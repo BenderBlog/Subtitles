@@ -25,7 +25,7 @@ If you are the author of the original video, just put these subtitles on your vi
 |Breakfast №1 - Eggs, Bacon, Berries, Coffee|LGR| https://www.youtube.com/watch?v=ObPNLEYg6jg ||
 |DOOM - Still Excellent Decades Later!|LGR| https://www.youtube.com/watch?v=_bl33_J3B-s ||
 |Doom II - 25 Years Later - An LGR Retrospective|LGR| https://www.youtube.com/watch?v=pNtHwWVXbDI ||
-|The Magnetic Tape Viewer - see the sound on a tape|Techmoan| https://www.youtube.com_watch_v=aZOxn8ggX8w& ||
+|The Magnetic Tape Viewer - see the sound on a tape|Techmoan| https://www.youtube.com/watch_v=aZOxn8ggX8w& ||
 |Made In Japan - Deep Purple - BBC Documentary|Deep Purple the Band| -- |本视频不是BBC的版权！用此字幕者，必须认同版权就是个BS!|
 |LGR eThrifts - Ep. 1 Shopping Goodwill|LGR| https://www.youtube.com/watch?v=P7v5QBws2P0 |本视频后半部分为机翻修改，请各位知悉。| 
 |Toyah & Robert's Remembrance Sunday Lockdown Lunch - Way Down Inside|Robert Fripp & Toyah Willcox| https://www.youtube.com/watch?v=CdqaGk-bFf4 ||
