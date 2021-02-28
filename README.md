@@ -33,7 +33,7 @@ If you are the author of the original video, just put these subtitles on your vi
 |Playing a Chocolate Record (Abridged)|Techmoan| -- |原链接我忘了|
 |Classic Tech - Sony TC-D5 Field Recorder|Techmoan| https://www.youtube.com/watch?v=BtjqF70F5wI ||
 |Build a Bigger Badder Midi Mountain|LGR| https://www.youtube.com/watch?v=bQn3SyDh2Xo |字幕文件丢失，仅上传视频|
-|VGA output through an SD Card! Margi Presenter-to-Go for PDAs|LGR Blerbs| https://www.youtube.com/watch?v=LRVhbITuUvc ||
+|VGA output through an SD Card! Margi Presenter-to-Go for PDAs|LGR| https://www.youtube.com/watch?v=LRVhbITuUvc ||
 |How Rockets Move Forward in Space|ElectroCUTE| https://www.youtube.com/watch?v=ZZApoDcYAJY ||
 |How Machine Language Works|8-bit-guy| https://www.youtube.com/watch?v=HWpi9n2H3kE |未联系到授权翻译，仅上传字幕，本字幕禁止商用|
 |Well, it Would be rude not to try... |Nostalgia Nerd| https://www.youtube.com/watch?v=gNCNj_1bRG0 ||
