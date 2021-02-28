@@ -20,3 +20,14 @@ If you are the author of the original video, just put these subtitles on your vi
 |How Machine Language Works|8-bit-guy| https://www.youtube.com/watch?v=HWpi9n2H3kE |未联系到授权翻译，仅上传字幕|
 |Build a Bigger Badder Midi Mountain|LGR| https://www.youtube.com/watch?v=bQn3SyDh2Xo |字幕文件丢失，仅上传视频|
 |Well, it Would be rude not to try... |Nostalgia Nerd| https://www.youtube.com/watch?v=gNCNj_1bRG0 |音视频上传完毕|
+|Made In Japan - Deep Purple - BBC Documentary|Deep Purple the Band| -- |本视频不是BBC的版权！！！and fuck BBC. 仅上传字幕|
+|Thrifts Ep.45|LGR| https://youtube.com/watch?v=dgtze2Wf4JY |音视频上传完毕|
+|Building a 486 DOS PC!|LGR| https://www.youtube.com/watch?v=fbjYkPKRm-8 |音视频上传完毕|
+|LGRwich №25 - Scrambled Egg & Provolone|LGR| https://www.youtube.com/watch?v=jMZKJYkD2Fk |音视频上传完毕|
+|Building a New LGR Editing PC! Threadripper 3970X|LGR| https://www.youtube.com/watch?v=jMZKJYkD2Fk |音视频上传完毕|
+|LGRwich №19 - Basic Ham and Cheese|LGR| https://www.youtube.com/watch?v=nW0tl4JCPFU |音视频上传完毕|
+|Cassette Adapters are Remarkably Simple|Technology Connections| https://www.youtube.com/watch?v=dH4n8fUjtLQ |音视频上传完毕|
+|LGRwich №4 - BBQ Pulled Chicken & Garam Masala Onion|LGR| https://www.youtube.com/watch?v=RjX1P7lnCKk |音视频上传完毕|
+|Breakfast №1 - Eggs, Bacon, Berries, Coffee|LGR| https://www.youtube.com/watch?v=ObPNLEYg6jg |音视频上传完毕|
+|DOOM - Still Excellent Decades Later!|LGR| https://www.youtube.com/watch?v=_bl33_J3B-s |音视频上传完毕|
+|Doom II - 25 Years Later - An LGR Retrospective|LGR| https://www.youtube.com/watch?v=pNtHwWVXbDI |音视频上传完毕|
