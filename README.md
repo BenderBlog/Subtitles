@@ -7,7 +7,8 @@
 
 These are the subtitle I translated, use them freely.
 
-Note that these subtitles are in Public Domain if I don't mention anything related to commercial usage in the file. Still, I still hope you could written my name SuperBart on your masterpieces based on mine.
+Note that these subtitles are basically in Public Domain if I don't mention anything related to commercial usage in the file. 
+Still, I still hope you could written my name SuperBart on your masterpieces based on mine.
 
 If you are the author of the original video, just put these subtitles on your video NOW! I would be pleased:-)
 
@@ -35,5 +36,5 @@ If you are the author of the original video, just put these subtitles on your vi
 |Build a Bigger Badder Midi Mountain|LGR| https://www.youtube.com/watch?v=bQn3SyDh2Xo |字幕文件丢失，仅上传视频|
 |VGA output through an SD Card! Margi Presenter-to-Go for PDAs|LGR| https://www.youtube.com/watch?v=LRVhbITuUvc ||
 |How Rockets Move Forward in Space|ElectroCUTE| https://www.youtube.com/watch?v=ZZApoDcYAJY ||
-|How Machine Language Works|8-bit-guy| https://www.youtube.com/watch?v=HWpi9n2H3kE |未联系到授权翻译，仅上传字幕，本字幕禁止商用|
+|How Machine Language Works|8-bit-guy| https://www.youtube.com/watch?v=HWpi9n2H3kE |bilibili有授权翻译，故本字幕禁止商用|
 |Well, it Would be rude not to try... |Nostalgia Nerd| https://www.youtube.com/watch?v=gNCNj_1bRG0 ||
