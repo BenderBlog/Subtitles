@@ -27,8 +27,8 @@ If you are the author of the original video, just put these subtitles on your vi
 |DOOM - Still Excellent Decades Later!|LGR| https://www.youtube.com/watch?v=_bl33_J3B-s ||
 |Doom II - 25 Years Later - An LGR Retrospective|LGR| https://www.youtube.com/watch?v=pNtHwWVXbDI ||
 |The Magnetic Tape Viewer - see the sound on a tape|Techmoan| https://www.youtube.com/watch?v=aZOxn8ggX8w& ||
-|Made In Japan - Deep Purple - BBC Documentary|Deep Purple the Band| -- |本视频不是BBC的版权！用此字幕者，必须认同版权就是个BS!|
-|LGR eThrifts - Ep. 1 Shopping Goodwill|LGR| https://www.youtube.com/watch?v=P7v5QBws2P0 |本视频后半部分为机翻修改，请各位知悉。| 
+|Made In Japan - Deep Purple - BBC Documentary|Deep Purple the Band| -- |本视频不是BBC的版权！|
+|LGR eThrifts - Ep. 1 Shopping Goodwill|LGR| https://www.youtube.com/watch?v=P7v5QBws2P0 |本视频后半部分为机翻修改| 
 |Toyah & Robert's Remembrance Sunday Lockdown Lunch - Way Down Inside|Robert Fripp & Toyah Willcox| https://www.youtube.com/watch?v=CdqaGk-bFf4 ||
 |Playing a Chocolate Record|Techmoan| https://www.youtube.com/watch?v=pZmWS1ER-z0 ||
 |Playing a Chocolate Record (Abridged)|Techmoan| -- |原链接我忘了|
@@ -38,3 +38,4 @@ If you are the author of the original video, just put these subtitles on your vi
 |How Rockets Move Forward in Space|ElectroCUTE| https://www.youtube.com/watch?v=ZZApoDcYAJY ||
 |How Machine Language Works|8-bit-guy| https://www.youtube.com/watch?v=HWpi9n2H3kE |bilibili有授权翻译，故本字幕禁止商用|
 |Well, it Would be rude not to try... |Nostalgia Nerd| https://www.youtube.com/watch?v=gNCNj_1bRG0 ||
+|Loading PC Games from Reel to Reel Tape!|LGR| https://www.youtube.com/watch?v=d60V9yAPE_s&t=634s | 校对：Citrusnyade |
