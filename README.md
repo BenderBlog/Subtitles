@@ -40,3 +40,4 @@ If you are the author of the original video, just put these subtitles on your vi
 |Well, it Would be rude not to try... |Nostalgia Nerd| https://www.youtube.com/watch?v=gNCNj_1bRG0 ||
 |Loading PC Games from Reel to Reel Tape!|LGR| https://www.youtube.com/watch?v=d60V9yAPE_s&t=634s | 校对：Citrusnyade |
 |I ordered the WinRAR Physical Delivery CD|LGR| https://www.youtube.com/watch?v=FoclTVcjkXE | |
+|Sound By Numbers - The Rise of Digital Sound|Technology Connections| https://www.youtube.com/watch?v=Gd_mhBf_FJA | 校对：pingatsky |
