@@ -1,7 +1,7 @@
 # Subtitles 字幕
 这个repo都是我翻译过的字幕，请大家随意使用。
 
-这些字幕如果我在字幕文件中没有声明商用问题的话，基本上就属于公有领域了。不过我还是希望有个署名“SuperBart”。
+这些字幕如果我在字幕文件中没有声明商用问题的话，按照CC0 Universal协议以及反996协议第一版授权。不过我还是希望有个署名“SuperBart”。
 
 如果你是原视频的作者，请赶紧将这些字幕上传到你的视频下面。如果你这么做的话，那我就真的很高兴啦:-)
 
@@ -45,3 +45,4 @@ If you are the author of the original video, just put these subtitles on your vi
 |How Laziness Sharpens a Pencil|LGR| https://www.youtube.com/watch?v=rz_rromgjGw||
 |Tomy Waterful Ring Toss Review|LGR| https://www.youtube.com/watch?v=UA33LOViUfw ||
 |A Surprise WinRAR Package Showed Up. Here's What's Inside!|LGR| https://www.youtube.com/watch?v=hxsli37jj0I ||
+|Nyquist-Shannon - The Backbone of Digital Sound|Technology Connections| https://www.youtube.com/watch?v=pWjdWCePgvA ||
