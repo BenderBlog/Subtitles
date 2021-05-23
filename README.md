@@ -1,18 +1,22 @@
 # Subtitles 字幕
-这个repo都是我翻译过的字幕，请大家随意使用。
 
-这些字幕如果我在字幕文件中没有声明商用问题的话，按照CC0 Universal协议以及反996协议第一版授权。不过我还是希望有个署名“SuperBart”。
+这个repo都是我翻译过的字幕以及我使用的样式，请大家随意使用。 
 
-如果你是原视频的作者，请赶紧将这些字幕上传到你的视频下面。如果你这么做的话，那我就真的很高兴啦:-)
+如果你是原视频的作者，请赶紧将这些字幕上传到你的视频下面。如果你这么做的话，那我就真的很高兴啦:-) 
 
-These are the subtitle I translated, use them freely.
+These are the subtitle I translated, use them freely. 
 
-Note that these subtitles are basically in Public Domain if I don't mention anything related to commercial usage in the file. 
-Still, I still hope you could written my name SuperBart on your masterpieces based on mine.
+If you are the author of the original video, just put these subtitles on your video NOW! I would be pleased:-) 
 
-If you are the author of the original video, just put these subtitles on your video NOW! I would be pleased:-)
+# 字幕授权声明
 
-字幕状况
+版权所有（c）2021 SuperBart <superbart_chen@qq.com> 
+
+本字幕按照SuperBart字幕许可证1.0版授权，查看LICENSE文件以查看详情。 
+
+字幕样式文件属于公有领域。 
+
+#字幕状况
 
 |名称|原作者|原地址|注|
 |---|---|---|---|
@@ -28,7 +32,7 @@ If you are the author of the original video, just put these subtitles on your vi
 |Doom II - 25 Years Later - An LGR Retrospective|LGR| https://www.youtube.com/watch?v=pNtHwWVXbDI ||
 |The Magnetic Tape Viewer - see the sound on a tape|Techmoan| https://www.youtube.com/watch?v=aZOxn8ggX8w& ||
 |Made In Japan - Deep Purple - BBC Documentary|Deep Purple the Band| -- |本视频不是BBC的版权！|
-|LGR eThrifts - Ep. 1 Shopping Goodwill|LGR| https://www.youtube.com/watch?v=P7v5QBws2P0 |本视频后半部分为机翻修改| 
+|LGR eThrifts - Ep. 1 Shopping Goodwill|LGR| https://www.youtube.com/watch?v=P7v5QBws2P0 |本视频后半部分为机翻修改|
 |Toyah & Robert's Remembrance Sunday Lockdown Lunch - Way Down Inside|Robert Fripp & Toyah Willcox| https://www.youtube.com/watch?v=CdqaGk-bFf4 ||
 |Playing a Chocolate Record|Techmoan| https://www.youtube.com/watch?v=pZmWS1ER-z0 ||
 |Playing a Chocolate Record (Abridged)|Techmoan| -- |原链接我忘了|
@@ -46,3 +50,5 @@ If you are the author of the original video, just put these subtitles on your vi
 |Tomy Waterful Ring Toss Review|LGR| https://www.youtube.com/watch?v=UA33LOViUfw ||
 |A Surprise WinRAR Package Showed Up. Here's What's Inside!|LGR| https://www.youtube.com/watch?v=hxsli37jj0I ||
 |Nyquist-Shannon - The Backbone of Digital Sound|Technology Connections| https://www.youtube.com/watch?v=pWjdWCePgvA ||
+|Thrustmaster Wizzard Pinball Controller|LGR| https://www.youtube.com/watch?v=UHVFohpCqU ||
+
