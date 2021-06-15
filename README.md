@@ -8,13 +8,21 @@ These are the subtitle I translated, use them freely.
 
 If you are the author of the original video, just put these subtitles on your video NOW! I would be pleased:-) 
 
-# 字幕授权声明
+# License information 字幕授权声明
 
 版权所有（c）2021 SuperBart <superbart_chen@qq.com> 
 
 本字幕按照SuperBart字幕许可证1.0版授权，查看LICENSE文件以查看详情。 
 
 字幕样式文件属于公有领域。 
+
+Copyright(c) 2021 SuperBart <superbart_chen@qq.com> 
+
+Under the SuperBart Subtitles License ver. 1.0, check the LICENSE file for detail. 
+
+The Subtitle Style file is under the Public Domain. 
+
+Special in English: only the Chinese version of the LICENSE have legal effects. 
 
 #字幕状况
 
@@ -51,4 +59,4 @@ If you are the author of the original video, just put these subtitles on your vi
 |A Surprise WinRAR Package Showed Up. Here's What's Inside!|LGR| https://www.youtube.com/watch?v=hxsli37jj0I ||
 |Nyquist-Shannon - The Backbone of Digital Sound|Technology Connections| https://www.youtube.com/watch?v=pWjdWCePgvA ||
 |Thrustmaster Wizzard Pinball Controller|LGR| https://www.youtube.com/watch?v=UHVFohpCqU ||
-
+|Doom 2 - Hell on Earth Trailer|id Software| https://www.youtube.com/watch?v=p-KIS4Sk76c ||
