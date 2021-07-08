@@ -16,8 +16,8 @@ Video File: Doom 2 - Hell On Earth Trailer 1994-p-KIS4Sk76c.mkv
 Video AR Mode: 4
 Video AR Value: 1.500000
 Video Zoom Percent: 1.375000
-Scroll Position: 73
-Active Line: 74
+Scroll Position: 54
+Active Line: 67
 Video Position: 3008
 
 [V4+ Styles]
@@ -58,7 +58,7 @@ Dialogue: 0,0:01:32.02,0:01:34.94,Default,,0,0,0,,we haven't settled on exactly 
 Dialogue: 0,0:01:34.94,0:01:38.01,Default,,0,0,0,,but there be new weapons, new bad guys.
 Dialogue: 0,0:01:38.01,0:01:41.40,Default,,0,0,0,,Again, bigger, badder, better than DOOM.
 Dialogue: 0,0:01:44.67,0:01:47.82,Default,,0,0,0,,These graphics are not better, but it's more...
-Dialogue: 0,0:01:47.82,0:01:50.60,Default,,0,0,0,,it's not... to the [_].
+Dialogue: 0,0:01:47.82,0:01:50.60,Default,,0,0,0,,It’s not too Nintendoish.
 Dialogue: 0,0:01:50.60,0:01:53.24,Default,,0,0,0,,It's great, the graphics are incredible.
 Dialogue: 0,0:01:53.24,0:01:55.58,Default,,0,0,0,,And I'm settled by every level now.
 Dialogue: 0,0:01:56.04,0:01:58.03,Default,,0,0,0,,Now after these number solve days,
@@ -98,7 +98,7 @@ Dialogue: 0,0:01:34.94,0:01:38.01,Chinese,,0,0,0,,但会有新武器，新敌人
 Dialogue: 0,0:01:36.07,0:01:37.99,Default Up,,0,0,0,,MAP13 Downtown by Sandy Peterson
 Dialogue: 0,0:01:38.01,0:01:41.40,Chinese,,0,0,0,,最后，这将会比一代更大，更邪恶，更好
 Dialogue: 0,0:01:44.67,0:01:47.82,Chinese,,0,0,0,,尽管画面没好多少，但是这个......
-Dialogue: 0,0:01:47.82,0:01:50.60,Chinese,,0,0,0,,（我没听出来他在说啥）
+Dialogue: 0,0:01:47.82,0:01:50.60,Chinese,,0,0,0,,和任天堂的风格很不一样
 Dialogue: 0,0:01:47.87,0:01:50.59,Default Up,,0,0,0,,MAP26 The Abandoned Mines by John Romero
 Dialogue: 0,0:01:50.60,0:01:53.24,Chinese,,0,0,0,,好极了，画面看上去很惊艳
 Dialogue: 0,0:01:53.24,0:01:55.58,Chinese,,0,0,0,,我终于通了这些关卡了

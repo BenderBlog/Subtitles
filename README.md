@@ -18,13 +18,13 @@ If you are the author of the original video, just put these subtitles on your vi
 
 Copyright(c) 2021 SuperBart <superbart_chen@qq.com> 
 
-Under the SuperBart Subtitles License ver. 1.0, check the LICENSE file for detail. 
+Under the SuperBart Subtitles License ver. 1.0, check the LICENSE or LICENSE-EN file for detail. 
 
 The Subtitle Style file is under the Public Domain. 
 
 Special in English: only the Chinese version of the LICENSE have legal effects. 
 
-#字幕状况
+# Contents 字幕状况
 
 |名称|原作者|原地址|注|
 |---|---|---|---|
@@ -43,7 +43,7 @@ Special in English: only the Chinese version of the LICENSE have legal effects.
 |LGR eThrifts - Ep. 1 Shopping Goodwill|LGR| https://www.youtube.com/watch?v=P7v5QBws2P0 |本视频后半部分为机翻修改|
 |Toyah & Robert's Remembrance Sunday Lockdown Lunch - Way Down Inside|Robert Fripp & Toyah Willcox| https://www.youtube.com/watch?v=CdqaGk-bFf4 ||
 |Playing a Chocolate Record|Techmoan| https://www.youtube.com/watch?v=pZmWS1ER-z0 ||
-|Playing a Chocolate Record (Abridged)|Techmoan| -- |原链接我忘了|
+|Playing a Chocolate Record (Abridged)|Techmoan| https://www.youtube.com/watch?v=cVGFV9A3gLc ||
 |Classic Tech - Sony TC-D5 Field Recorder|Techmoan| https://www.youtube.com/watch?v=BtjqF70F5wI ||
 |Build a Bigger Badder Midi Mountain|LGR| https://www.youtube.com/watch?v=bQn3SyDh2Xo |字幕文件丢失，仅上传视频|
 |VGA output through an SD Card! Margi Presenter-to-Go for PDAs|LGR| https://www.youtube.com/watch?v=LRVhbITuUvc ||
@@ -60,3 +60,4 @@ Special in English: only the Chinese version of the LICENSE have legal effects.
 |Nyquist-Shannon - The Backbone of Digital Sound|Technology Connections| https://www.youtube.com/watch?v=pWjdWCePgvA ||
 |Thrustmaster Wizzard Pinball Controller|LGR| https://www.youtube.com/watch?v=UHVFohpCqU ||
 |Doom 2 - Hell on Earth Trailer|id Software| https://www.youtube.com/watch?v=p-KIS4Sk76c ||
+|Quake II - Welcome to the Machine |Civvie11| https://www.youtube.com/watch?v=QBP8Ru0stRI ||
