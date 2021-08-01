@@ -61,3 +61,6 @@ Special in English: only the Chinese version of the LICENSE have legal effects.
 |Thrustmaster Wizzard Pinball Controller|LGR| https://www.youtube.com/watch?v=UHVFohpCqU ||
 |Doom 2 - Hell on Earth Trailer|id Software| https://www.youtube.com/watch?v=p-KIS4Sk76c ||
 |Quake II - Welcome to the Machine |Civvie11| https://www.youtube.com/watch?v=QBP8Ru0stRI ||
+|LGRwich №26 - Mesquite Turkey, Pepper Jack, Cucumber |LGR| https://www.youtube.com/watch?v=CxrTupwVeCI ||
+|Bad Apple in Doom |SuperBart| https://www.bilibili.com/video/BV1dq4y1X7jn | 本视频按照CC-BY-SA授权 |
+|LGR Thrifts Ep.46 - Back to RealThrifts |LGR| https://www.youtube.com/watch?v=IHwRzrywobA/ ||
