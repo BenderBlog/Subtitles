@@ -15,8 +15,8 @@ Video File: Quake II - Welcome to the Machine-QBP8Ru0stRI.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 919
-Active Line: 922
+Scroll Position: 844
+Active Line: 862
 Video Position: 95185
 
 [V4+ Styles]
@@ -890,7 +890,7 @@ Dialogue: 0,0:21:28.08,0:21:29.46,Chinese,,0,0,0,,有时还真是这样
 Dialogue: 0,0:21:29.46,0:21:31.06,Chinese,,0,0,0,,尤其是某些改进引擎里的准星
 Dialogue: 0,0:21:31.14,0:21:34.48,Chinese,,0,0,0,,是那种又大，又碍眼的丑陋玩意
 Dialogue: 0,0:21:35.20,0:21:36.16,Chinese,,0,0,0,,太辣眼睛了
-Dialogue: 0,0:21:35.22,0:21:36.09,Comments,,0,0,0,,Civvie实际上很喜欢Yamagi Quake 2，并认其为该游戏为现代电脑的移植版
+Dialogue: 0,0:21:35.22,0:21:36.09,Comments,,0,0,0,,Civvie实际上很喜欢Yamagi Quake 2，并认其为该改进引擎为该游戏为现代电脑的移植版
 Dialogue: 0,0:21:36.16,0:21:38.18,Chinese,,0,0,0,,但这游戏不会为难你
 Dialogue: 0,0:21:38.24,0:21:40.40,Chinese,,0,0,0,,这游戏没有复活机制，没有《毁灭战士》里的火人
 Dialogue: 0,0:21:40.40,0:21:43.92,Chinese,,0,0,0,,没有碍眼的东西，没有拼技术的东西，没有啥有挑战性
@@ -937,7 +937,7 @@ Dialogue: 0,0:23:51.73,0:23:54.34,Chinese,,0,0,0,,这家伙自己消失了，一
 Dialogue: 0,0:23:54.34,0:23:58.50,Chinese,,0,0,0,,在一年内，和前面没亲戚关系的Adrian Carmack想退出公司了
 Dialogue: 0,0:23:58.50,0:24:02.04,Chinese,,0,0,0,,觉得这个公司一直在不停地做同一种游戏
 Dialogue: 0,0:24:02.04,0:24:04.72,Chinese,,0,0,0,,American McGee 和 Adrian Carmack 不久后就走了
-Dialogue: 0,0:24:04.72,0:24:08.10,Chinese,,0,0,0,,McGee在很多方面遭遇了和Romero和Tall相同的待遇
+Dialogue: 0,0:24:04.72,0:24:08.10,Chinese,,0,0,0,,McGee在很多方面遭遇了和Romero和Hall相同的待遇
 Dialogue: 0,0:24:08.10,0:24:09.92,Chinese,,0,0,0,,而当你按了他的按钮后
 Dialogue: 0,0:24:31.24,0:24:32.22,Chinese,,0,0,0,,天哪
 Dialogue: 0,0:24:32.22,0:24:34.04,Chinese,,0,0,0,,您......您这是在干嘛？

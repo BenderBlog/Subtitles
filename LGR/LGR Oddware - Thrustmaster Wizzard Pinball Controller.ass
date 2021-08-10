@@ -16,8 +16,8 @@ Video File: LGR Oddware - Thrustmaster Wizzard Pinball Controller--UHVFohpCqU.mp
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.375000
-Scroll Position: 411
-Active Line: 412
+Scroll Position: 372
+Active Line: 383
 Video Position: 24042
 
 [V4+ Styles]
@@ -64,7 +64,7 @@ Dialogue: 0,0:01:57.60,0:02:01.26,Default,,0,0,0,,And it had a box that look act
 Dialogue: 0,0:02:01.26,0:02:02.76,Default,,0,0,0,,And that is even cooler than this.
 Dialogue: 0,0:02:02.76,0:02:04.00,Default,,0,0,0,,So what the freak is this thing?
 Dialogue: 0,0:02:04.00,0:02:05.41,Default,,0,0,0,,Well, this is made by Thrustmaster,
-Dialogue: 0,0:02:05.41,0:02:07.42,Default,,0,0,0,,The same people that were responsible for doing 
+Dialogue: 0,0:02:05.41,0:02:07.42,Default,,0,0,0,,The same people that were responsible for doing
 Dialogue: 0,0:02:07.42,0:02:09.26,Default,,0,0,0,,a whole ton of stuff, mainly joysticks.
 Dialogue: 0,0:02:09.56,0:02:11.91,Default,,0,0,0,,Like the excellent F-16 flight stick.
 Dialogue: 0,0:02:12.84,0:02:16.09,Default,,0,0,0,,This thing retailed for 39.95,
@@ -412,7 +412,7 @@ Dialogue: 0,0:11:05.33,0:11:06.80,Chinese,,0,0,0,,可我要玩游戏的话
 Dialogue: 0,0:11:07.81,0:11:10.25,Chinese,,0,0,0,,尽管我已经映射好按键，配置好控制设定了
 Dialogue: 0,0:11:11.78,0:11:12.94,Chinese,,0,0,0,,它还是没法用
 Dialogue: 0,0:11:14.94,0:11:15.97,Chinese,,0,0,0,,啥也没发生
-Dialogue: 0,0:11:17.57,0:11:19.02,Chinese,,0,0,0,,我都不知道在干什么
+Dialogue: 0,0:11:17.57,0:11:19.02,Chinese,,0,0,0,,我都不知道是为啥
 Dialogue: 0,0:11:22.25,0:11:24.82,Chinese,,0,0,0,,有点差劲
 Dialogue: 0,0:11:25.09,0:11:30.66,Chinese,,0,0,0,,我刚想收起来，可是呢......我也不知我在想什么
 Dialogue: 0,0:11:30.66,0:11:32.74,Chinese,,0,0,0,,无论如何，试试这个吧
