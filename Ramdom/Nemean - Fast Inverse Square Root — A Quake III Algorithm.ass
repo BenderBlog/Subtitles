@@ -15,9 +15,9 @@ Video File: Fast Inverse Square Root — A Quake III Algorithm-p8u_k2LIZyo.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 338
-Active Line: 344
-Video Position: 10286
+Scroll Position: 587
+Active Line: 592
+Video Position: 72180
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -54,17 +54,17 @@ Dialogue: 0,0:01:15.85,0:01:20.31,Default,,0,0,0,,and the algorithm that does th
 Dialogue: 0,0:01:23.28,0:01:25.82,Default,,0,0,0,,First of all, why does game engine want to calculate
 Dialogue: 0,0:01:25.82,0:01:28.20,Default,,0,0,0,,the one divided by the square root of x?
 Dialogue: 0,0:01:28.20,0:01:32.05,Default,,0,0,0,,If you want implement physics and lighting, or reflections in your game engine,
-Dialogue: 0,0:01:32.05,0:01:36.20,Default,,0,0,0,,it helps when the victor you are calculating with are normalized with the length of one.
-Dialogue: 0,0:01:38.05,0:01:41.17,Default,,0,0,0,,Because other wise, your victor might be too short or too long
+Dialogue: 0,0:01:32.05,0:01:36.20,Default,,0,0,0,,it helps when the vector you are calculating with are normalized with the length of 1.
+Dialogue: 0,0:01:38.05,0:01:41.17,Default,,0,0,0,,Because other wise, your vector might be too short or too long
 Dialogue: 0,0:01:41.17,0:01:43.74,Default,,0,0,0,,and when you do physics with them, things can go wrong.
-Dialogue: 0,0:01:47.31,0:01:49.68,Default,,0,0,0,,As all of you know, the length of the victor is the
+Dialogue: 0,0:01:47.31,0:01:49.68,Default,,0,0,0,,As all of you know, the length of the vector is the
 Dialogue: 0,0:01:49.68,0:01:52.62,Default,,0,0,0,,square root of the x squared plus y squared plus z squared.
 Dialogue: 0,0:01:53.17,0:01:56.94,Default,,0,0,0,,If you don't happen to known this, I claimed you see this in two dimensions.
 Dialogue: 0,0:01:56.94,0:01:58.82,Default,,0,0,0,,It's just the Pythagoras Theorem.
-Dialogue: 0,0:01:59.40,0:02:02.28,Default,,0,0,0,,So if you want to normalize the victor's length to one,
-Dialogue: 0,0:02:02.28,0:02:05.08,Default,,0,0,0,,we want to scale everything down by the length of the victor.
-Dialogue: 0,0:02:05.37,0:02:08.85,Default,,0,0,0,,I mean, obviously, because if we divided the length of the victor
-Dialogue: 0,0:02:08.85,0:02:11.94,Default,,0,0,0,,by the length of the victor, we obviously get one.
+Dialogue: 0,0:01:59.40,0:02:02.28,Default,,0,0,0,,So if you want to normalize the vector's length to one,
+Dialogue: 0,0:02:02.28,0:02:05.08,Default,,0,0,0,,we want to scale everything down by the length of the vector.
+Dialogue: 0,0:02:05.37,0:02:08.85,Default,,0,0,0,,I mean, obviously, because if we divided the length of the vector
+Dialogue: 0,0:02:08.85,0:02:11.94,Default,,0,0,0,,by the length of the vector, we obviously get one.
 Dialogue: 0,0:02:12.42,0:02:16.17,Default,,0,0,0,,So all the left to do is to divide x, y, and z by the length.
 Dialogue: 0,0:02:16.17,0:02:20.20,Default,,0,0,0,,Or similarly, multiplied by one divided by the length.
 Dialogue: 0,0:02:20.20,0:02:22.28,Default,,0,0,0,,You might already see where this is going.
@@ -77,7 +77,7 @@ Dialogue: 0,0:02:43.00,0:02:45.20,Default,,0,0,0,,and have been designed to be r
 Dialogue: 0,0:02:45.94,0:02:49.28,Default,,0,0,0,,The square root, on the other hand, is a terribly slow operations.
 Dialogue: 0,0:02:49.28,0:02:51.00,Default,,0,0,0,,And divisions is not much better.
 Dialogue: 0,0:02:51.42,0:02:54.77,Default,,0,0,0,,This is not good if we have several thousands of surfaces,
-Dialogue: 0,0:02:54.77,0:02:57.48,Default,,0,0,0,,where each of the victors needs to be normalized.
+Dialogue: 0,0:02:54.77,0:02:57.48,Default,,0,0,0,,where each of the vectors needs to be normalized.
 Dialogue: 0,0:02:58.05,0:03:03.02,Default,,0,0,0,,But this also means that in here, we have an opportunity for speed improvements.
 Dialogue: 0,0:03:03.02,0:03:07.68,Default,,0,0,0,,If we can find, even just the approximation of one divided by the square root of the x,
 Dialogue: 0,0:03:07.68,0:03:11.42,Default,,0,0,0,,as long as it's fast, we can save precious time.
@@ -86,9 +86,9 @@ Dialogue: 0,0:03:14.80,0:03:19.65,Default,,0,0,0,,with only an error of almost 1
 Dialogue: 0,0:03:22.02,0:03:26.45,Default,,0,0,0,,Looking at the code again, we can see that the beginning is pretty harmless.
 Dialogue: 0,0:03:26.45,0:03:29.65,Default,,0,0,0,,We are given a number called 'number' as input.
 Dialogue: 0,0:03:29.65,0:03:32.51,Default,,0,0,0,,The number where suppose to take the inverse square root off.
-Dialogue: 0,0:03:33.05,0:03:36.77,Default,,0,0,0,,First, with the variable i{\i}, we declare 32-bit number.
-Dialogue: 0,0:03:37.62,0:03:42.31,Default,,0,0,0,,Then, we declare two 32-bit decimal numbers, x2{\i} and y{\i}.
-Dialogue: 0,0:03:42.77,0:03:47.51,Default,,0,0,0,,And then we store 1.5 into the variable, with the obvious name, threehalfs{\i}.
+Dialogue: 0,0:03:33.05,0:03:36.77,Default,,0,0,0,,First, with the variable i, we declare 32-bit number.
+Dialogue: 0,0:03:37.62,0:03:42.31,Default,,0,0,0,,Then, we declare two 32-bit decimal numbers, x2 and y.
+Dialogue: 0,0:03:42.77,0:03:47.51,Default,,0,0,0,,And then we store 1.5 into the variable, with the obvious name, threehalfs.
 Dialogue: 0,0:03:48.88,0:03:52.54,Default,,0,0,0,,Next to the line is simply copy half of it and put it into the x2,
 Dialogue: 0,0:03:52.54,0:03:54.25,Default,,0,0,0,,and the whole then put into the y.
 Dialogue: 0,0:03:54.25,0:03:56.74,Default,,0,0,0,,But it is after that the magic happens.
@@ -177,7 +177,7 @@ Dialogue: 0,0:09:20.56,0:09:22.92,Default,,0,0,0,,infinities and two zeroes.
 Dialogue: 0,0:09:23.16,0:09:24.53,Default,,0,0,0,,But we won't go into those.
 Dialogue: 0,0:09:24.68,0:09:29.09,Default,,0,0,0,,Because in Quake III, it just happens that these are never be input into our algorithm.
 Dialogue: 0,0:09:29.50,0:09:32.56,Default,,0,0,0,,Other wise, something definitely has gone wrong anyway.
-Dialogue: 0,0:09:32.85,0:09:37.25,Default,,0,0,0,,It is no point should a game engine have to normalize a victor with infinite length.
+Dialogue: 0,0:09:32.85,0:09:37.25,Default,,0,0,0,,It is no point should a game engine have to normalize a vector with infinite length.
 Dialogue: 0,0:09:38.44,0:09:40.93,Default,,0,0,0,,For this algorithm, and for the rest of this video,
 Dialogue: 0,0:09:40.93,0:09:45.72,Default,,0,0,0,,it would be useful to think the mantissa and exponent are binary numbers they are.
 Dialogue: 0,0:09:46.17,0:09:50.66,Default,,0,0,0,,If we are given two numbers, one being the mantissa and one being the exponent.
@@ -244,7 +244,7 @@ Dialogue: 0,0:13:41.86,0:13:45.37,Default,,0,0,0,,And secondly, the bits that ar
 Dialogue: 0,0:13:45.92,0:13:48.52,Default,,0,0,0,,We don't want this conversion to mess with this bits.
 Dialogue: 0,0:13:49.00,0:13:53.76,Default,,0,0,0,,The only thing we want to do is to put the bits, one to one, into a long.
 Dialogue: 0,0:13:56.94,0:14:01.28,Default,,0,0,0,,The way you achieve this, is to convert the memory address, not the number.
-Dialogue: 0,0:14:02.90,0:14:07.24,Default,,0,0,0,,First, we get the address of y{\i}, this is the address of the float.
+Dialogue: 0,0:14:02.90,0:14:07.24,Default,,0,0,0,,First, we get the address of y, this is the address of the float.
 Dialogue: 0,0:14:07.90,0:14:12.16,Default,,0,0,0,,Then you convert the address from a float address into a long address.
 Dialogue: 0,0:14:13.36,0:14:16.57,Default,,0,0,0,,The address itself doesn't change, but C now thinks
 Dialogue: 0,0:14:16.57,0:14:19.40,Default,,0,0,0,,the number living at the address is now a long.
@@ -253,7 +253,7 @@ Dialogue: 0,0:14:23.00,0:14:25.90,Default,,0,0,0,,Because C now think that this 
 Dialogue: 0,0:14:25.90,0:14:29.69,Default,,0,0,0,,it will read the number at the address, as it were a long.
 Dialogue: 0,0:14:30.42,0:14:34.86,Default,,0,0,0,,Like this, we tricked C by lifting the conversion away from the number itself
 Dialogue: 0,0:14:34.86,0:14:36.86,Default,,0,0,0,,to the address of the number.
-Dialogue: 0,0:14:37.86,0:14:40.76,Default,,0,0,0,,And that's how we get the bits of the number into i{\i}.
+Dialogue: 0,0:14:37.86,0:14:40.76,Default,,0,0,0,,And that's how we get the bits of the number into i.
 Dialogue: 0,0:14:41.28,0:14:44.24,Default,,0,0,0,,I donno know what else to say, that's just how C works,
 Dialogue: 0,0:14:44.24,0:14:45.90,Default,,0,0,0,,so let's just go to the next step.
 Dialogue: 0,0:14:51.84,0:14:54.78,Default,,0,0,0,,The intuition behind the second step is the following.
@@ -262,20 +262,20 @@ Dialogue: 0,0:15:00.33,0:15:02.44,Default,,0,0,0,,And shifting to the right, hal
 Dialogue: 0,0:15:03.45,0:15:06.73,Default,,0,0,0,,But what would happen if we did something like this to an exponent？
 Dialogue: 0,0:15:07.54,0:15:10.06,Default,,0,0,0,,Doubling an exponent squares the number,
 Dialogue: 0,0:15:10.06,0:15:12.84,Default,,0,0,0,,and halving the exponent gives us an square root.
-Dialogue: 0,0:15:13.24,0:15:17.85,Default,,0,0,0,,But now also negating the exponent, give us 1 divided by the square root of x{\i}.
+Dialogue: 0,0:15:13.24,0:15:17.85,Default,,0,0,0,,But now also negating the exponent, give us 1 divided by the square root of x.
 Dialogue: 0,0:15:17.85,0:15:19.34,Default,,0,0,0,,This is exactly what we need.
 Dialogue: 0,0:15:20.53,0:15:23.01,Default,,0,0,0,,So let's remind ourselves what our goals is here.
-Dialogue: 0,0:15:23.33,0:15:25.24,Default,,0,0,0,,We have our numbers stored into y{\i},
-Dialogue: 0,0:15:25.24,0:15:28.52,Default,,0,0,0,,and our goal was to calculate the 1 divided by the square root of y{\i}.
+Dialogue: 0,0:15:23.33,0:15:25.24,Default,,0,0,0,,We have our numbers stored into y,
+Dialogue: 0,0:15:25.24,0:15:28.52,Default,,0,0,0,,and our goal was to calculate the 1 divided by the square root of y.
 Dialogue: 0,0:15:28.92,0:15:33.32,Default,,0,0,0,,As our already said, calculate this directly is too hard and too expensive.
-Dialogue: 0,0:15:34.00,0:15:36.00,Default,,0,0,0,,But we extracted the bits from y{\i}.
+Dialogue: 0,0:15:34.00,0:15:36.00,Default,,0,0,0,,But we extracted the bits from y.
 Dialogue: 0,0:15:36.00,0:15:39.18,Default,,0,0,0,,And we have seen with the IEEE standard 754,
 Dialogue: 0,0:15:39.18,0:15:42.73,Default,,0,0,0,,that the bits of the number are, in some sense, its own logarithm.
-Dialogue: 0,0:15:43.40,0:15:48.33,Default,,0,0,0,,That means, in i{\i}, we have stored the log of y, up to some scaling and shifting.
+Dialogue: 0,0:15:43.40,0:15:48.33,Default,,0,0,0,,That means, in i, we have stored the log of y, up to some scaling and shifting.
 Dialogue: 0,0:15:49.00,0:15:53.01,Default,,0,0,0,,I claim that the problem will become way easier if we work with log.
-Dialogue: 0,0:15:53.60,0:15:57.37,Default,,0,0,0,,Instead of trying so hard to calculate the 1 divided by the square root of y{\i},
-Dialogue: 0,0:15:57.37,0:16:00.89,Default,,0,0,0,,we instead calculate log of 1 divided by the square root of y{\i}.
-Dialogue: 0,0:16:01.68,0:16:05.13,Default,,0,0,0,,We rewrite this to log of y{\i} to the power of minus half.
+Dialogue: 0,0:15:53.60,0:15:57.37,Default,,0,0,0,,Instead of trying so hard to calculate the 1 divided by the square root of y,
+Dialogue: 0,0:15:57.37,0:16:00.89,Default,,0,0,0,,we instead calculate log of 1 divided by the square root of y.
+Dialogue: 0,0:16:01.68,0:16:05.13,Default,,0,0,0,,We rewrite this to log of y to the power of minus half.
 Dialogue: 0,0:16:05.13,0:16:07.00,Default,,0,0,0,,So we can take the exponent.
 Dialogue: 0,0:16:07.64,0:16:10.26,Default,,0,0,0,,Calculate this is stupidly easy.
 Dialogue: 0,0:16:10.64,0:16:13.40,Default,,0,0,0,,You might think "Oh no! We have a division in here.
@@ -286,9 +286,9 @@ Dialogue: 0,0:16:23.85,0:16:28.36,Default,,0,0,0,,This already explains why we d
 Dialogue: 0,0:16:29.08,0:16:33.25,Default,,0,0,0,,But why this number 0x5f3759df here again?
 Dialogue: 0,0:16:33.69,0:16:37.21,Default,,0,0,0,,Well, because our algorithm is actually scales and shifts it.
 Dialogue: 0,0:16:37.48,0:16:40.41,Default,,0,0,0,,So let's calculate it and understand where it comes from.
-Dialogue: 0,0:16:41.00,0:16:43.02,Default,,0,0,0,,Let Γ{\i} (gamma would be written at below) be our solution.
-Dialogue: 0,0:16:43.64,0:16:48.41,Default,,0,0,0,,Then we knew, the log of gamma{\i} equals to the log of y{\i} to the power of minus half,
-Dialogue: 0,0:16:48.80,0:16:51.44,Default,,0,0,0,,which equals to minus half times log of y{\i}.
+Dialogue: 0,0:16:41.00,0:16:43.02,Default,,0,0,0,,Let Γ (gamma would be written at below) be our solution.
+Dialogue: 0,0:16:43.64,0:16:48.41,Default,,0,0,0,,Then we knew, the log of gamma equals to the log of y to the power of minus half,
+Dialogue: 0,0:16:48.80,0:16:51.44,Default,,0,0,0,,which equals to minus half times log of y.
 Dialogue: 0,0:16:52.12,0:16:55.72,Default,,0,0,0,,Now we replace the logarithm with the bit representation.
 Dialogue: 0,0:17:01.94,0:17:04.38,Default,,0,0,0,,And then we just solve for the bits of gamma.
 Dialogue: 0,0:17:04.82,0:17:07.53,Default,,0,0,0,,I spared the details but this is the result.
@@ -313,15 +313,15 @@ Dialogue: 0,0:18:21.82,0:18:26.33,Default,,0,0,0,,The only things Newton's Metho
 Dialogue: 0,0:18:26.33,0:18:29.89,Default,,0,0,0,,And what Newton's Method does is that it takes a x value,
 Dialogue: 0,0:18:29.89,0:18:33.66,Default,,0,0,0,,and it tries to guess by how much it is off from being the roots.
 Dialogue: 0,0:18:34.36,0:18:38.16,Default,,0,0,0,,It does so by calculating f(x) and its derivative.
-Dialogue: 0,0:18:41.76,0:18:46.80,Default,,0,0,0,,We can write f(x) as a y{\i}, and the derivative as dy{\i} over dx{\i}.
+Dialogue: 0,0:18:41.76,0:18:46.80,Default,,0,0,0,,We can write f(x) as a y, and the derivative as dy over dx.
 Dialogue: 0,0:18:49.88,0:18:54.20,Default,,0,0,0,,We have the ratio between y and x offset, and y itself.
 Dialogue: 0,0:18:54.50,0:18:58.29,Default,,0,0,0,,So to get the x offset, we just divide y by the ratio.
 Dialogue: 0,0:19:04.22,0:19:07.78,Default,,0,0,0,,So then we simply subtract the offset to get the new x.
 Dialogue: 0,0:19:10.29,0:19:13.44,Default,,0,0,0,,The informed viewer can now verify that the last line is
 Dialogue: 0,0:19:13.44,0:19:16.24,Default,,0,0,0,,Newton Iteration that apply to the function.
-Dialogue: 0,0:19:16.45,0:19:20.22,Default,,0,0,0,,f(y{\i}) equals to 1 divided by the y{\i} squared minus x{\i}.
-Dialogue: 0,0:19:20.84,0:19:23.84,Default,,0,0,0,,Notice that the y{\i} being the root of the function
-Dialogue: 0,0:19:23.84,0:19:27.09,Default,,0,0,0,,is equivalent to y{\i} being in the inverse square root of x{\i}.
+Dialogue: 0,0:19:16.45,0:19:20.22,Default,,0,0,0,,f(y) equals to 1 divided by the y squared minus x.
+Dialogue: 0,0:19:20.84,0:19:23.84,Default,,0,0,0,,Notice that the y being the root of the function
+Dialogue: 0,0:19:23.84,0:19:27.09,Default,,0,0,0,,is equivalent to y being in the inverse square root of x.
 Dialogue: 0,0:19:30.93,0:19:34.06,Default,,0,0,0,,I really encourage you to verify the last line of the code.
 Dialogue: 0,0:19:34.06,0:19:38.10,Default,,0,0,0,,Since it is really surprising that even though both the function
 Dialogue: 0,0:19:38.10,0:19:42.16,Default,,0,0,0,,and Newton's Method have division in them, the code does not.
@@ -332,7 +332,7 @@ Dialogue: 0,0:19:54.73,0:19:57.56,Default,,0,0,0,,an trick to outsmart the C Pro
 Dialogue: 0,0:19:57.56,0:19:59.22,Default,,0,0,0,,magic bits operations,
 Dialogue: 0,0:19:59.22,0:20:01.34,Default,,0,0,0,,and the calculates behind the Newton's Method.
 Dialogue: 0,0:00:00.00,0:00:05.88,Chinese,,0,0,0,,2005年，id公司发布了《雷神之锤III：竞技场》的源代码
-Dialogue: 0,0:00:00.00,0:00:05.88,Comments,,0,0,0,,{\c&H00FFFF&\pos(960,40)}听写+翻译：SuperBart  原作者Nemean发布于2020-11-29\N字幕下载：https://github.com/BenderBolg/Subtitles
+Dialogue: 0,0:00:00.00,0:00:05.88,Comments,,0,0,0,,{\c&H00FFFF&\pos(960,40)}听写+翻译：SuperBart  原作者Nemean发布于2020-11-29\N字幕下载：https://github.com/BenderBolg/Subtitles\N该段源代码在 q_math.c 文件里，根据使用改进引擎情况而定
 Dialogue: 0,0:00:05.88,0:00:11.82,Chinese,,0,0,0,,在源代码中，游戏粉丝们找到了一个算法，十分巧妙，很快出名了
 Dialogue: 0,0:00:11.82,0:00:16.05,Chinese,,0,0,0,,该算法的唯一用途是计算平方根的倒数
 Dialogue: 0,0:00:17.08,0:00:22.25,Chinese,,0,0,0,,要我写计算平方根倒数的代码的话，我会这么写
@@ -377,14 +377,14 @@ Dialogue: 0,0:02:58.05,0:03:03.02,Chinese,,0,0,0,,但这也意味着，我们有
 Dialogue: 0,0:03:03.02,0:03:07.68,Chinese,,0,0,0,,退一步讲，如果我们可以找到x的平方根倒数的近似结果
 Dialogue: 0,0:03:07.68,0:03:11.42,Chinese,,0,0,0,,只要算法很快，我们就能节省很多的时间
 Dialogue: 0,0:03:11.42,0:03:14.80,Chinese,,0,0,0,,平方根倒数速算法算的就是近似值
-Dialogue: 0,0:03:14.80,0:03:19.65,Chinese,,0,0,0,,大约有1%的误差，不过比刚才那个快了三倍
+Dialogue: 0,0:03:14.80,0:03:19.65,Chinese,,0,0,0,,大约有1%的误差，不过速度是刚才那个的三倍
 Dialogue: 0,0:03:22.02,0:03:26.45,Chinese,,0,0,0,,再次查看代码，我们可以看到，代码开头基本没啥用
 Dialogue: 0,0:03:26.45,0:03:29.65,Chinese,,0,0,0,,我们有一个形参'number'作为输入值
 Dialogue: 0,0:03:29.65,0:03:32.51,Chinese,,0,0,0,,我们要计算这个数的平方根倒数
 Dialogue: 0,0:03:33.05,0:03:36.77,Chinese,,0,0,0,,首先是一个32位整型变量i
 Dialogue: 0,0:03:37.62,0:03:42.31,Chinese,,0,0,0,,然后，我们声明两个32位的小数(浮点数)，x2和y
 Dialogue: 0,0:03:42.77,0:03:47.51,Chinese,,0,0,0,,然后我们将1.5这个数存入一个常量，名称显然对应该数值
-Dialogue: 0,0:03:42.77,0:03:47.51,Comments,,0,0,0,,注：threehalfs直译为“三个一半”
+Dialogue: 0,0:03:42.77,0:03:47.51,Comments,,0,0,0,,注：threehalfs指“二分之三”
 Dialogue: 0,0:03:48.88,0:03:52.54,Chinese,,0,0,0,,下一行只是很简单地将形参的数值除以2后，存入x2
 Dialogue: 0,0:03:52.54,0:03:54.25,Chinese,,0,0,0,,完整的形参则放入y
 Dialogue: 0,0:03:54.25,0:03:56.74,Chinese,,0,0,0,,在此之后，魔法就发生了
@@ -527,7 +527,8 @@ Dialogue: 0,0:12:42.42,0:12:46.21,Chinese,,0,0,0,,然而，长整型数可以用
 Dialogue: 0,0:12:46.66,0:12:48.10,Chinese,,0,0,0,,此处用一个小技巧举例
 Dialogue: 0,0:12:51.42,0:12:53.80,Chinese,,0,0,0,,向左位平移能将这个数加倍
 Dialogue: 0,0:12:55.89,0:12:58.18,Chinese,,0,0,0,,向右位平移能将这个数减半
-Dialogue: 0,0:12:59.18,0:13:02.65,Chinese,,0,0,0,,当然，数字要是有点怪的话，最终会有舍去
+Dialogue: 0,0:12:59.18,0:13:02.65,Chinese,,0,0,0,,当然，如果是个奇数的话，最终会有舍去
+Dialogue: 0,0:12:59.18,0:13:02.65,Comments,,0,0,0,,SuperBart：抱歉各位，odd(奇数)和even(偶数)搞反了……
 Dialogue: 0,0:13:05.34,0:13:10.72,Chinese,,0,0,0,,不过呢，我们可以接受这点不准确，只要这个算法够快就好
 Dialogue: 0,0:13:12.38,0:13:15.12,Chinese,,0,0,0,,像其他的编程语言一样，C语言提供了一种方法
 Dialogue: 0,0:13:15.12,0:13:18.29,Chinese,,0,0,0,,能将浮点数转换为长整型数
@@ -619,4 +620,4 @@ Dialogue: 0,0:19:50.54,0:19:54.73,Chinese,,0,0,0,,仅仅是利用到了了 IEEE 
 Dialogue: 0,0:19:54.73,0:19:57.56,Chinese,,0,0,0,,对C语言特性的灵活利用
 Dialogue: 0,0:19:57.56,0:19:59.22,Chinese,,0,0,0,,具有魔力的位平移
 Dialogue: 0,0:19:59.22,0:20:01.34,Chinese,,0,0,0,,以及牛顿迭代法背后的运算法则
-Dialogue: 0,0:20:03.00,0:20:07.72,Comments,,0,0,0,,{\pos(438,256)}注：ioquake改进版中，引入了一个联合\N{\an4}\h\h\h\htypedef union floatint_u \{\N\h\h\h\h\h\h\hint32_t i;\N\h\h\h\h\h\h\huint32_t u;\N\h\h\h\h\h\h\hfloat f;\N\h\h\h\h\h\h\hbyte b[4];\N\h\h\h\h\}floatint_t;\N这样，第一步可以不用更改指针类型了。
+Dialogue: 0,0:20:03.00,0:20:07.72,Comments,,0,0,0,,{\pos(438,272)}注：ioquake改进版中，引入了一个联合\N{\an4}\h\h\h\htypedef union floatint_u \{\N\h\h\h\h\h\h\hint32_t i;\N\h\h\h\h\h\h\huint32_t u;\N\h\h\h\h\h\h\hfloat f;\N\h\h\h\h\h\h\hbyte b[4];\N\h\h\h\h\}floatint_t;\N这样，第一步可以不用更改指针类型了\N不过我很怀疑有多少人会看到这里......
