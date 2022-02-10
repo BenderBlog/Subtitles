@@ -37,4 +37,3 @@ Special in English: Why I have to write my own license?
 >I know this license would be close to useless due to the evil people in marketing accounts, and I think the permitted translators would not spare a glance for my subtitles. But I still need to write them. After all, it is way better than CC0+Anti996 Dual License because at least it express my idea. 
 > 
 >SuperBart 2021-8-7 
-
